@@ -1,0 +1,240 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+     background: url(IMG_1336.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:100%;
+    background-color: #5C7BBC;
+    width: 1175px;
+}
+
+
+
+.heading1 {
+	text-align: center;
+	font-size: 2.5em;
+    color: #f5f5f5;
+}
+
+.heading2 {
+	text-align: center;
+	font-size: 1.5em;
+    color: #f5f5f5;
+}
+
+
+.heading3 {
+	text-align: center;
+	font-size: 1.25em;
+    color: black;
+}
+
+.heading4 {
+	text-align: center;
+	font-size: 1.5em;
+    color: black;
+}
+
+.heading5 {
+	text-align: center;
+	font-size: 2.5em;
+    color: #ffffff;
+}
+
+
+
+
+#header { 
+	height: 150px;
+	width: 80%;
+}
+
+
+
+.quote {
+    font-size: 0.75;
+    line-height: 1em;
+}
+
+#soundcloud {
+    margin: 1em 1em 1em 1em;
+    font-size: .65em;
+}
+
+.normaltext {
+    font-size: 1em;
+    line-height: 1.15em;
+    color: 000000;
+}
+
+.biotext {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: 000000;
+}
+
+#bios p {
+    margin-bottom: 1em;
+}
+
+
+
+a {
+    color: #228afe;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 76, 0);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #a3a3a3;
+}
+
+.presstext {
+    font-size: 0.95em;
+    line-height: 1em;
+    color: 000000;
+}
+
+.quotetext {
+    font-size: 1em;
+    line-height: 1.15em;
+    color: 000000;
+}
+
+iframe {
+    border-radius: 10px;
+    display: auto;
+}
+
+img {
+    height: 100px;
+    width: auto;
+    display: auto;
+    margin: 10px;
+}
+
+.strong {
+    font-weight: 600;
+    font-family: Helvetica;
+}
+
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+#skype {
+    height: 30px;
+    width: auto;
+    margin: auto 0.5em auto auto;
+}
+
+#pressQuotes {
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-left: 0em;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+    #pressQuotes {
+    }
+}
+
+
+
+#iframes {
+    margin: auto 1em 1em auto;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    opacity: 0.95; 
+}
+
+#contact {
+    max-width: 55%;
+    margin-right: 1em;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+#pressInfo {
+    max-width: 55%;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+#bios {
+    margin: 1em 0 1em 0;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    opacity: 0.9;
+    max-width: 100%;
+}
+
+#skype {
+    height: 32px;
+    width: auto;
+    margin: auto 0.5em auto auto;
+    display: inline-block;
+}
+
+
+.socialbutton {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    line-height: 32px;
+    display: table-cell;
+    vertical-align: middle;
+    border: 5px solid #f5f5f5;
+}
+
+.socialbutton img {
+    max-height: 29px;
+    max-width: 29px;   
+}
+
+    
+#twitter {
+    background-color: #55acee;
+}
+.socialspacer {
+    background-color: transparent;
+    width: 10px;
+    height: 40px;
+}
+
+#facebook {
+    background-color: #3B5998;
+}
+
+#soundcloud, #bandcamp, #instagram {
+    background-color: #ffffff;
+}
+
+
+#bandcamplogo {
+    height: auto; width: 32px; margin-left: auto; margin-right: auto; display: block;
+}
+
+
+
+
+
+
+
+
+

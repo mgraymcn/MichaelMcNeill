@@ -1,0 +1,374 @@
+body {
+    background: url('images/IMG_2769.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 600px;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* header styles */
+
+    .header {
+        text-align: center;
+        color: #f5f5f5;
+    }
+
+    /* Navbar background color and styling */
+        .nav {
+            background-color: #000E52;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .nav a {
+            color: #f5f5f5;
+        }
+
+        .nav li:hover a {
+            color: #000;
+            border-radius: 5px;
+        }
+        
+        .icon-bar {
+            border: 1px solid #000;
+        }
+        .navbar-toggle {
+            background-color: #f5f5f5;
+        }
+
+    /* top-of-page headings */
+        h1 {
+            font-size: 36px;
+            margin-top: 2em;
+        }
+        
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            color: #f5f5f5;
+        }
+
+
+/* main */
+    
+    /* Containers for albums and info */
+    
+    
+
+    .thumbnail {
+        background-color: transparent;
+        border: 0px;
+    }
+
+    .recent_albums .thumbnail,
+    .bio .thumbnail {
+        text-align: center;
+        padding: 25px 10px;
+        margin-bottom: 3em;
+    }
+    
+    
+    
+    .performances .thumbnail_background,
+    .performances .thumbnail {
+        margin-bottom: 20px;
+    }
+    .performances .thumbnail {
+        padding: 20px;
+        min-height: 250px;
+    }
+
+    .year {
+        text-align: center;
+        font-size: 48px;
+        line-height: 300px;
+    }
+    
+    .performance ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+    .performance li {
+        padding-left: 0px;
+    }
+
+    /* thumbnail translucent background */
+    .thumbnail:before {
+        content:"";
+        position:absolute;
+        z-index:-1;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color: #f5f5f5;
+        opacity: 0.8;
+        border-radius: 10px;
+        margin-bottom: 3em;
+        padding: 25px 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    
+    .quote {
+        display: inline;
+    }
+
+    iframe {
+        height: 275px;
+        width: 275px;
+    }
+
+    /* background images while iframes load */
+    #migration {
+        background: url('images/Migrationcover.jpg') no-repeat;
+        background-size: 275px 275px;
+    }
+
+    #flight {
+        background: url('images/FlightCover.jpg') no-repeat;
+        background-size: 275px 275px;
+    }
+
+
+    /* album titles */
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+        color: #000;
+    }
+
+    .recent_albums ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .recent_albums li {
+        display: inline-block;
+        padding-left: 0px;
+    }
+
+    .button {
+        height: 50px;
+        width: 100px;
+        line-height: 50px;
+        padding: 0px 5px;
+        background-color: #000E52;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        color: #f5f5f5;
+    }
+
+/* bio */
+    .bio p:first-child,
+    .bio p:nth-child(2),
+    .bio p:nth-child(3)
+        {
+            line-height: 1.5em;
+            font-size: 1.1em;
+        }
+    .bio p:nth-child(4)
+        {
+            line-height: 2em;
+            font-size: 0.95em;
+        }
+/* performances */
+    .performances .row {
+        display: table-row;
+    }
+    .performances .row .thumbnail {
+        min-height: 350px;
+    }
+
+/* footer */
+
+    .footer {
+        min-height: 200px;
+        background-color: transparent;
+        width: 100%;
+        line-height: 1.25em;
+        font-size: 1.15em;
+        color: #fff;
+        display: block;
+        clear: both;
+        padding: 50px 100px;
+        position: absolute;
+    }
+
+    .footer-right {
+        text-align: right;
+    }
+    .footer-left {
+        text-align: left;
+    }
+
+/* footer translucent background */
+    .footer:before {
+        content:"";
+        position:absolute;
+        z-index: -1;
+        min-height: 200px;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color: #000E52;
+        opacity: 0.75;
+    }
+
+    /* footer images and "buttons" */
+        .skype {
+            height: 32px;
+            width: auto;
+            margin: auto 0.5em auto auto;
+            display: inline-block;
+        }
+        
+        .smalltext {
+            font-size: 12px;
+        }
+
+        .socialbutton {
+            width: 55px;
+            height: 55px;
+            border-radius: 100%;
+            line-height: 32px;
+            display: table-cell;
+            vertical-align: middle;
+            border: 5px solid #f5f5f5;
+        }
+    
+        #twitter {
+            background-color: #55acee;   
+        }
+        .socialspacer {
+            background-color: transparent;
+            width: 10px;
+            height: 40px;
+        }
+
+        .socialbuttonimage {
+            display: block;
+            width: 32px;
+            height: 32px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #facebook {
+            background-color: #3B5998;
+        }
+
+        #bandcamp, #instagram, #soundcloud {
+            background-color: #ffffff;
+        }
+
+        #bandcamplogo {
+            height: auto;
+            width: 32px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .button_container {
+            display: inline-block;
+        }
+
+
+/* Media Queries */
+
+
+@media (max-width: 800px) {
+    .recent_albums .thumbnail {
+        /* Larger font sizes for smaller device */
+        
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* centers footer content on smaller screens */
+    .footer div {
+        text-align: center;
+        padding: 0px;
+    }
+    .footer {
+        padding: 10px;
+    }
+    
+    h1 {
+        /* allows h1 to clear toggle-menu */
+        margin-top: 1.5em;
+    }
+    
+    h2 {
+        /* allows h2 to be on one line on small devices */
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    
+    
+    iframe {
+        /* smaller iframe size on iPhone 5 and other small devices */
+        width: 225px;
+        height: 225px;
+    }
+    /* background images while iframes load */
+    #migration {
+        background: url('images/Migrationcover.jpg') no-repeat;
+        background-size: 225px 225px;
+    }
+
+    #flight {
+        background: url('images/FlightCover.jpg') no-repeat;
+        background-size: 225px 225px;
+    }
+
+    
+}
+
+
+
+@media (min-width: 1440px) {
+    
+    
+    /* larger footer images and "buttons" for larger screens */
+        .skype {
+            height: 40px;
+            width: auto;
+            margin: auto 0.5em auto auto;
+            display: inline-block;
+        }
+
+        .socialbutton {
+            width: 65px;
+            height: 65px;
+            line-height: 40px;
+        }
+        
+        .socialbuttonimage {
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .socialspacer {
+            width: 12px;
+            height: 50px;
+        }
+    
+
+        #bandcamplogo {
+            height: auto;
+            width: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+}

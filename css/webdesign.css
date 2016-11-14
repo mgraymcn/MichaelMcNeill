@@ -1,0 +1,271 @@
+html, body {
+    padding: 0px;
+    font-family: 'Roboto-light', sans-serif;
+    background: url('../images/IMG_2769.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.header {
+    color: #fff;
+    /*position: absolute; */
+    width: 100%;
+    min-height: 60px;
+    line-height: 60px;
+    padding: 10px;
+    background-color: transparent;
+    background: transparent;
+}
+
+
+.header p {
+    font-size: 36px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs ul {
+    list-style: none;
+    border: none;
+    padding: 0px;
+}
+
+
+.header li {
+    padding-left: 0px;
+    display: inline;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 18px;
+}
+
+.header .nav-tabs a {
+    color: #fff;
+    border: none;
+}
+
+.header .nav-tabs a:hover {
+    color: #228afe;
+    text-decoration: none;
+    border-bottom: 1px solid #228afe;
+    background-color: transparent;
+}
+
+.main {
+    margin: 50px;
+}
+
+.main a {
+    color: #228afe;
+}
+
+.thumbnail {
+    min-height: 300px;
+}
+
+.main div {
+    padding: 10px;
+}
+
+.supporting {
+    width: 100%;
+}
+
+.JQuery {
+    background-color: #484848;
+    color: #fff;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.languages {
+    background-color: #fff;
+    color: #000;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+}
+
+/* footer style */
+
+.footer {
+    min-height: 200px;
+    background-color: transparent;
+    width: 100%;
+    line-height: 1.25em;
+    font-size: 1.15em;
+    color: #000000;
+    display: block;
+    clear: both;
+    padding: 50px 100px;
+    position: absolute;
+}
+#footer {
+    min-height: 200px;
+    background-color: #f5f5f5;
+    width: 100%;
+    line-height: 1.25em;
+    font-size: 1.15em;
+    color: #000000;
+    display: block;
+    clear: both;
+    padding: 50px 100px;
+    position: relative;
+}
+
+.footer-right {
+    text-align: right;
+}
+.footer-left {
+    text-align: left;
+}
+
+.footer a {
+    color: #000;
+}
+b {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#skype {
+    height: 32px;
+    width: auto;
+    margin: auto 0.5em auto auto;
+    display: inline-block;
+}
+
+
+
+.socialbutton {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 32px;
+    display: table-cell;
+    vertical-align: middle;
+    border: 5px solid #f5f5f5;
+}
+    
+#twitter {
+    background-color: #55acee;
+   
+}
+.socialspacer {
+    background-color: transparent;
+    width: 10px;
+    height: 40px;
+}
+
+#facebook {
+    background-color: #3B5998;
+}
+
+
+#bandcamp, #instagram, #soundcloud {
+    background-color: #ffffff;
+}
+
+#bandcamplogo {
+    height: auto; width: 32px; margin-left: auto; margin-right: auto; display: block;
+}
+
+
+
+.button_container {
+    display: inline-block;
+}
+.footer:before {
+        content:"";
+        position:absolute;
+        z-index: -1;
+        min-height: 200px;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color: #f5f5f5;
+        opacity: 0.5;
+    }
+.header .container {
+    position: absolute;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.header-background {
+        content:"";
+        position: absolute;
+        z-index: 1;
+        height: 60px;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color: #f5f5f5;
+        opacity: 0.5;
+}
+
+@media (max-width: 990px) {
+    .header-background {
+        height: 180px;
+    }
+    .header .container {
+        height: 10px;
+    }
+    .main {
+        margin: 100px 50px;
+    }
+    
+    .footer-left, .footer-right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 736px) {
+    .header-background {
+        height: 180px;
+    }
+    .header .container {
+        height: 180px;
+    }
+    .header p {
+        font-size: 2em;
+    }
+    .header li {
+        font-size: 1em;
+    }
+    .main {
+        margin: 150px 50px 100px 50px;
+    }
+    
+    
+    
+}
+
+     /* iPhone+ 
+@media (min-width: 412px) and (max-width: 567px) {
+    body {
+        background-image: url(../images/IMG_1336.JPG) no-repeat center center fixed;
+        background-size: 568px 100%;
+    }
+}
+    /* iPhone 6 */
+@media (min-width: 360px) and (max-width: 412px) {
+    .header p {
+        font-size: 40px;
+    }
+}
+    
+   /* iPhone 5 and smaller  */
+
+@media (min-width: 312px) and (max-width: 359px) {
+    .header p {
+        font-size: 38px;
+    }
+}
+
+
