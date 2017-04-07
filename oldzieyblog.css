@@ -22,8 +22,13 @@
  background-repeat: repeat-x;
 }
 
+#header a {
+ color: #fff;
+}
+
 a.fw-feed-item-url {
  text-decoration: none;
+ color: #fff;
 }
 
 .fw-feed-item {
@@ -42,7 +47,7 @@ a.fw-feed-item-url {
 
 /* This is the styling for the Feed Title link in the header container*/
 .fw-feed-title a:link {
- color: #fef;
+ color: #fff;
  text-decoration: none;
 }
 
