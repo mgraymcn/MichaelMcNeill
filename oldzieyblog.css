@@ -3,7 +3,7 @@
 
 /* This is the styling for main feed container - NOTE: the background-color affects the footer background.*/
 #fw-container {
- text-align: left;
+ text-align: center;
  padding: 10px;
  font-family: 'Noto Sans', Helvetica, sans-serif;
  border: 1px solid #0E4FAE;
