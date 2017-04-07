@@ -18,8 +18,7 @@
  margin: 10px 20px 10px 20px;
  color: #fff;
  font-size: 18px;
- background-color: #888;
- background-repeat: repeat-x;
+ background-color: transparent;
 }
 
 #header a {
@@ -46,6 +45,8 @@ a.fw-feed-item-url {
 }
 
 /* This is the styling for the Feed Title link in the header container*/
+
+.fw-feed-title a,
 .fw-feed-title a:link {
  color: #fff;
  text-decoration: none;
@@ -53,7 +54,7 @@ a.fw-feed-item-url {
 
 /* This is the styling for a "visited" Feed Title link in the header container*/
 .fw-feed-title a:visited {
- color: #ddd;
+ color: #fff;
  text-decoration: none;
 }
 
@@ -80,7 +81,7 @@ a.fw-feed-item-url {
  padding: 10px;
  border-bottom: 1px solid #bbceeb;
  box-shadow: 0px 1px 1px #222;
- background-color: #d1e3ff;
+ background-color: transparent;
 }
 
 /* This is the styling for the Feed Item Title in the body container*/
