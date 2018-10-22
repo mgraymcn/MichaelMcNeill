@@ -264,8 +264,15 @@ body {
 
 /* performances */
 
+/* Height adjustment for performance boxes */
+#octetNovember18 {
+    height: 525px;
+}
 
-   
+#summer18 {
+    height: 600px;
+}
+
 /* footer */
 
     .footer {
