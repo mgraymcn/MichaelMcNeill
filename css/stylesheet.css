@@ -182,7 +182,7 @@ body {
         display: inline;
     }
 
-    iframe {
+    .recent_albums iframe {
         height: 275px;
         width: 275px;
     }
