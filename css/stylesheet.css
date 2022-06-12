@@ -54,7 +54,13 @@ body {
             display: none;
         }
 
-        
+.indexContainer div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
 
     /* allow line break in homepage h2 on small screens */
         @media (max-width: 412px) {
@@ -96,7 +102,13 @@ body {
         height: 250px;
         width: 250px;
     }
-    
+
+.recent_albums .bigImage {
+    height: 400px;
+    width: 400px;
+}
+
+
 /* resizes album images/iframes for smaller screens like iPhone 5 */
 
     @media (max-width: 360px) {
@@ -182,18 +194,12 @@ body {
         display: inline;
     }
 
-    .recent_albums iframe {
+   /* iframe {
         height: 275px;
         width: 275px;
-    }
+    }*/
 
     /* background images while iframes load */
-
-    #refractions {
-        background: url('images/front.jpg') no-repeat;
-        background-size: 275px 275px;
-    }
-
     #migration {
         background: url('images/Migrationcover.jpg') no-repeat;
         background-size: 275px 275px;
@@ -203,8 +209,6 @@ body {
         background: url('images/FlightCover.jpg') no-repeat;
         background-size: 275px 275px;
     }
-
-    
 
 
     /* album titles */
@@ -269,6 +273,12 @@ body {
             font-size: 1.1em;
         }
     
+/* allegories */
+
+#allegoriesImage img {
+    width: 25vw;
+    height: auto;
+}
 
 /* performances */
 
@@ -278,7 +288,7 @@ body {
 }
 
 #summer18 {
-    height: 600px;
+    height: 500px;
 }
 
 /* footer */
