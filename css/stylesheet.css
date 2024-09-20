@@ -1,8 +1,80 @@
 body {
     /* background: url('/images/IMG_2769.jpg') no-repeat center center fixed; */
     background-size: cover;
+    background-color: #F4EFEB;
     min-height: 600px;
-    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Fahkwang', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.fahkwang-extralight {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fahkwang-light {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fahkwang-regular {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fahkwang-medium {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fahkwang-semibold {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fahkwang-bold {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fahkwang-extralight-italic {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fahkwang-light-italic {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fahkwang-regular-italic {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fahkwang-medium-italic {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fahkwang-semibold-italic {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fahkwang-bold-italic {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 /* header styles */
@@ -11,41 +83,46 @@ body {
         text-align: center;
     }
 
-    /* Navbar background color and styling */
-        .nav {
-            background-color: #000E52;
-            border-radius: 5px;
+    nav, nav .navbar, .navbar-expand-xl, .bg-body-tertiary {
+        background-color: #c3d3cc;
+    }
+
+    a, .nav-link {
+        color: #3FADA4;
         }
+    /* Navbar background color and styling */
         .nav a {
-            color: #FFC000;
+            color: #3FADA4;
+            font-size: 1.5em;
+            margin-left: 8px;
+            margin-right: 8px;
         }
 
-        .nav li:hover a {
-            color: #000E52;
-            background-color: #FFC000;
-            border-radius: 0px;
+        .nav li:hover a, .nav-link:hover, .nav-link:hover a {
+            color: #F4EFEB;
+            background-color: #d56229;
+            border-radius: 5px;
+           
         }
-        
-        .icon-bar {
-            border: 2px solid #FFC000;
+      
+        .navbar-brand {
+            font-family: 'Fahkwang';
+            color: #d56229;
         }
-        .navbar-toggle {
-            background-color: #000E52;
-            min-height: 60px;
-            min-width: 60px;
-            
-        }
+
 
     /* top-of-page headings */
         h1 {
+            font-family: 'Fahkwang';
             font-size: 54px;
             margin-top: 1em;
-            color: #FFC000;
+            color: #d56229;
         }
         
         h2 {
+            font-family: 'Fahkwang';
             font-size: 36px;
-            color: #FFC000;
+            color: #d56229;
             text-align: center;
         }
 
@@ -59,7 +136,23 @@ body {
     padding-bottom: 20px;
 }
 
+        .bcp-promo-button, .bcp-promo-button a {
+            background-color: #d56229;
+            color: #F4EFEB;
+            border-radius: 10px;
+        }    
+        .bcp-promo-button:hover {
+            background-color: #3FADA4;
+            color: #d56229;
+            border-radius: 10px;
+        }
+        .bcp-promo-button:hover p {
+            background-color: #F4EFEB;
+            color: #3FADA4;
+            border-radius: 10px;
+        }
 
+   
 
 
     /* allow line break in homepage h2 on small screens */
@@ -70,6 +163,7 @@ body {
             .h2_xs_screen {
                 display: block;
             }
+            
         }
 
 
@@ -80,7 +174,7 @@ body {
     
     h3 {
             font-size: 24px;
-            color: #FFC000;
+            color: #d56229;
             text-align: center;
         }
 
@@ -113,11 +207,16 @@ body {
 
     @media (max-width: 360px) {
         .recent_albums img,
+        .bigImage,
         .recent_albums iframe {
-            max-width: 80%;
-            height: auto;
+            width: 200px;
+            height: 200px;
             margin-left: auto;
             margin-right: auto;
+            align-content: center;
+            align-items: center;
+            align-self: center;
+            text-align: center;
         }
     }
     
@@ -295,11 +394,11 @@ body {
 
     .footer {
         min-height: 200px;
-        background-color: transparent;
+        background-color: #D8CC8F;
         width: 100%;
         line-height: 1.25em;
         font-size: 1.15em;
-        color: #FFC000;
+        color: #365F3A;
         display: block;
         clear: both;
         padding: 50px 100px;
@@ -424,7 +523,7 @@ body {
 @media (max-width: 400px) {
     
     
-    iframe {
+    iframe, .bigImage {
         /* smaller iframe size on iPhone 5 and other small devices */
         width: 225px;
         height: 225px;
@@ -502,10 +601,10 @@ body {
         top: 0;
         border-width: 0 0 1px;
     }
-    .navbar-collapse.collapse {
+    /*.navbar-collapse.collapse {
         display: none!important;
-    }
-    .navbar-nav {
+    }*/
+    /*.navbar-nav {
         float: none!important;
         margin-top: 7.5px;
     }
@@ -518,7 +617,7 @@ body {
     }
     .collapse.in{
         display:block !important;
-    }
+    }*/
 }
 
 @media (max-width: 768px) {
