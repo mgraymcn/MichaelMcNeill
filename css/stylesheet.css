@@ -136,8 +136,13 @@ body {
     padding-bottom: 20px;
 }
 
-        .bcp-promo-button, .bcp-promo-button a {
+        .bcp-promo-button {
             background-color: #d56229;
+            color: #F4EFEB;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }    
+        .bcp-promo-button a {
             color: #F4EFEB;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
@@ -158,6 +163,9 @@ body {
         }
         .bcp-promo-button:hover {
             background-color: #3FADA4;
+            color: #d56229;
+        }
+        .bcp-promo-button:hover a {
             color: #d56229;
         }
         .bcp-promo-button:hover p {
@@ -185,7 +193,6 @@ body {
 /* main */
     
     /* Containers for albums and info */
-    
     
     h3 {
             font-size: 24px;
