@@ -110,7 +110,9 @@ body {
             color: #d56229;
         }
 
-
+    .recitaldark a {
+    color: #5FCFC6
+}
     /* top-of-page headings */
         h1 {
             font-family: 'Fahkwang';
